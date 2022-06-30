@@ -45,22 +45,22 @@ const Slide = () => {
       >
         <SwiperSlide>
         <div className="img-box">
-          <img src="/images/slide1.jpg" alt="슬라이드1" />
+          <img src="https://github.com/R-tari/oticon_git/blob/main/public/images/slide1.jpg?raw=true" alt="슬라이드1" />
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="img-box">
-          <img src="/images/slide2.jpg" alt="슬라이드2" />
+          <img src="https://github.com/R-tari/oticon_git/blob/main/public/images/slide2.jpg?raw=true" alt="슬라이드2" />
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div classNae="img-box">
-          <img src="/images/slide3.jpg" alt="슬라이드3" />
+          <img src="https://github.com/R-tari/oticon_git/blob/main/public/images/slide3.jpg?raw=true" alt="슬라이드3" />
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="img-box">
-          <img src="/images/slide4.jpg" alt="슬라이드4" />
+          <img src="https://github.com/R-tari/oticon_git/blob/main/public/images/slide4.jpg?raw=true" alt="슬라이드4" />
         </div>
         </SwiperSlide>
 

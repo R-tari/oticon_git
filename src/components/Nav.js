@@ -1,5 +1,6 @@
 import React,{useState,useEffect,useRef} from 'react';
-import {Dum_Date,SubNav1,SubNav2,SubNav3,SubNav4,SubNav5 } from '../data/data_nav'
+import {SubNav1,SubNav2,SubNav3,SubNav4,SubNav5 } from '../data/data_nav'
+
 
 function Nav() {
   const [subNav,setSubNav]= useState(false);
@@ -180,7 +181,7 @@ function Nav() {
           <div class="container">
               <h1 class="logo">
                  <a href="#">
-                    <img src="/images/logo.png" alt="logo"/>
+                    <img src="https://github.com/R-tari/oticon_git/blob/main/public/images/logo.png?raw=true" alt="logo"/>
                   </a>
               </h1>
               <nav class="navigation">

@@ -5,30 +5,8 @@ import Slide from './Slide';
 import Nav from './Nav';
 import CardSlide from './cardSlide';
 import ProductSlide from './productSlide';
-
-
-
-
-export const DUMMY_SRC = [
-  {
-    id: 'd1',
-    href: '#',
-    src: '/images/icon_sns1.png',
-    alt: 'facebook'
-  },  
-  {
-    id: 'd1',
-    href: '#',
-    src: '/images/icon_sns2.png',
-    alt: 'oticonkorea'
-  },  
-  {
-    id: 'd1',
-    href: '#',
-    src: '/images/icon_sns3.png',
-    alt: 'blog'
-  }
-]
+import { DUMMY_SRC,FooterList } from '../data/data_nav';
+import { News,ProductArea1,Search_Store } from '../data/data_article';
 
 
 
@@ -37,106 +15,14 @@ export const DUMMY_SRC = [
 
 
 
-export const Search_Store=
-[
-  {
-    id:'1',
-    tit:'오티콘 대리점 매장찾기',
-    src:'/images/map.png',
-    txt:'전국 오티콘 코리아 매장을<br>쉽게 찾으실 수 있습니다.',
-  }
-]
 
-export const ProductArea1=
-[
-  {
-    id:1,
-    tit:'오티콘 보청기',
-    txt:'믿을수 있는 오티콘 보청기로 새로운 세상을 만나보세요',
-    src:'/images/cic.png',
-    alt:'귓속형보청기 이미지'
- 
-  },
-  {
-    id:2,
-    tit:'정부지원 보청기',
-    txt:'고객의 다양한 청력 유형에 맞는 총5가지의 최신 제품 라인업 구성',
-    src:'/images/보청기.png',
-    alt:'오티콘 제품 나열'
-    
-  }
-]
 
-export const ProductArea2=
-[
-  {
-    id:1,
-    txt:'오티콘 오픈(Opn)',
-    src:'/images/opn.png',
-    alt:'opn 제품 이미지'
-  },
-  {
-    id:2,
-    txt:'오티콘 모어(More)',
-    src:'/images/more.png',
-    alt:'more 제품 이미지'
-  },
-  {
-    id:3,
-    txt:'오티콘 루비',
-    src:'/images/귀걸이형.jpg',
-    alt:'귀걸이형 루비 제품 이미지'
-  },
-  
-]
 
-export const News=
-[
-  {
-    id:1,
-    href:'#',
-    txt:'오티콘,배우 김갑수 전속모델 선정'
-  },
-  {
-    id:2,
-    href:'#',
-    txt:'오티콘보청기,브랜드 전속모델로 배우 김갑수 발탁'
-  },
-  {
-    id:3,
-    href:'#',
-    txt:"오티콘보청기,프리미엄 보청기'오티콘'모델에 배우 김갑수 발탁"
-  },
-  {
-    id:4,
-    href:'#',
-    txt:"오티콘보청기, '코리아트랙 2021' 리포트 발표"
-  },
-]
 
-export const FooterList=
-[
-  {
-    id:1,
-    href:'#',
-    txt:'본사직영점'
-  },
-  {
-    id:2,
-    href:'#',
-    txt:'이메일무단수집거부'
-  },
-  {
-    id:3,
-    href:'#',
-    txt:'이용약관'
-  },
-  {
-    id:4,
-    href:'#',
-    txt:'개인정보취급방침'
-  },
-]
+
+
+
+
 
 
 
@@ -351,7 +237,7 @@ function Section()
 
         <article className="event">
           <div className="img-box">
-            <img src="/images/b_event.jpg" alt="이벤트" />
+            <img src="https://github.com/R-tari/oticon_git/blob/main/public/images/b_event.jpg?raw=true" alt="이벤트" />
           </div>
         </article>
       
@@ -361,14 +247,14 @@ function Section()
             <h2 className='tit'>오티콘 뉴스</h2>
             <a href="#">           
             <div className="btn-plus">
-              <img src="/images/btn_plus.png" alt="news 상세페이지 버튼" />
+              <img src="https://github.com/R-tari/oticon_git/blob/main/public/images/btn_plus.png?raw=true" alt="news 상세페이지 버튼" />
             </div>
             </a>
 
             <a href="#">
             <div className="news-content">
               <div className="img-box">
-                <img src="/images/news.png" alt="news이미지" />
+                <img src="https://github.com/R-tari/oticon_git/blob/main/public/images/news.png?raw=true" alt="news이미지" />
               </div>
               <div className="txt-box">
                   <p>
@@ -433,7 +319,7 @@ function Footer()
         <div className="footer-bottom">
           <div className="container footer-container">
             <div className="img-box">
-              <img src="/images/f_logo.png" alt="footer로고" />
+              <img src="https://github.com/R-tari/oticon_git/blob/main/public/images/f_logo.png?raw=true" alt="footer로고" />
             </div>
             <div className="txt-box">
             <address>

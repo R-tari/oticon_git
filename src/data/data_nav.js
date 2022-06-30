@@ -141,3 +141,48 @@ export const SubNav5=
     subnav:'찾아오시는 길'
   },
 ]
+
+export const DUMMY_SRC = [
+  {
+    id: 'd1',
+    href: '#',
+    src: 'https://github.com/R-tari/oticon_git/blob/main/public/images/icon_sns1.png?raw=true',
+    alt: 'facebook'
+  },  
+  {
+    id: 'd1',
+    href: '#',
+    src: 'https://github.com/R-tari/oticon_git/blob/main/public/images/icon_sns2.png?raw=true',
+    alt: 'oticonkorea'
+  },  
+  {
+    id: 'd1',
+    href: '#',
+    src: 'https://github.com/R-tari/oticon_git/blob/main/public/images/icon_sns3.png?raw=true',
+    alt: 'blog'
+  }
+]
+
+export const FooterList=
+[
+  {
+    id:1,
+    href:'#',
+    txt:'본사직영점'
+  },
+  {
+    id:2,
+    href:'#',
+    txt:'이메일무단수집거부'
+  },
+  {
+    id:3,
+    href:'#',
+    txt:'이용약관'
+  },
+  {
+    id:4,
+    href:'#',
+    txt:'개인정보취급방침'
+  },
+]
