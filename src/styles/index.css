@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size:16px;
+  letter-spacing: -0.05em;
+  
+  /* transform : rotate(0.07deg);  */
+  
+}
+/* 
+@font-face {
+	font-family:'Noto Sans KR';
+	font-style:normal;
+	font-weight:100;
+	src:url(/fonts/notosanskr/NotoSanskr-Thin.eot);
+	src:url(/fonts/notosanskr/NotoSanskr-Thin.eot?#iefix) format('embedded-opentype'), 
+		url(/fonts/notosanskr/NotoSanskr-Thin.woff) format('woff'),
+		url(/fonts/notosanskr/NotoSanskr-Thin.otf) format('opentype')
+} */
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+address
+{
+  font-style: normal;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
