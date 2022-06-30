@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/oticon_git/static/css/main.d10f4684.css",
-    "main.js": "/oticon_git/static/js/main.04fe22df.js",
+    "main.css": "/oticon_git/static/css/main.d8adc818.css",
+    "main.js": "/oticon_git/static/js/main.800ab4c1.js",
     "static/js/787.27cbae94.chunk.js": "/oticon_git/static/js/787.27cbae94.chunk.js",
     "index.html": "/oticon_git/index.html",
-    "main.d10f4684.css.map": "/oticon_git/static/css/main.d10f4684.css.map",
-    "main.04fe22df.js.map": "/oticon_git/static/js/main.04fe22df.js.map",
+    "main.d8adc818.css.map": "/oticon_git/static/css/main.d8adc818.css.map",
+    "main.800ab4c1.js.map": "/oticon_git/static/js/main.800ab4c1.js.map",
     "787.27cbae94.chunk.js.map": "/oticon_git/static/js/787.27cbae94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d10f4684.css",
-    "static/js/main.04fe22df.js"
+    "static/css/main.d8adc818.css",
+    "static/js/main.800ab4c1.js"
   ]
 }
