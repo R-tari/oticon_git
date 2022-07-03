@@ -8,6 +8,11 @@
   text-align: center;
 }
 
+.wrap
+{
+  padding-top:0;
+}
+
 ul,li,ol
 {
   list-style: none;
@@ -1102,7 +1107,10 @@ article
 }
 @media (max-width:1024px)
 {
-
+  .wrap
+  {
+    padding-top:110px;
+  }
   .header
   {
     position:fixed;
@@ -1321,6 +1329,10 @@ article
 
 @media (max-width:640px)
 {
+  .wrap
+  {
+    padding-top:78px;
+  }
   .sns ul li img 
   {
     height: 15px;
