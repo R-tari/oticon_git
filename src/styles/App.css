@@ -1044,7 +1044,7 @@ article
     grid-template-columns: repeat(3,1fr);
   }  
 
-  .header .navigation li a
+  .header .navigation>ul>li>a
   {
     font-size:17px;
   }
